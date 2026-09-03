@@ -66,24 +66,12 @@ body{
 }
 @media (min-width:900px){
   #app{
-    max-width:1200px;
-    box-shadow:0 0 60px rgba(0,0,0,.4);
+    max-width:900px;
+    box-shadow:0 0 60px rgba(20,40,90,.08);
     border-left:1px solid var(--line);
     border-right:1px solid var(--line);
   }
   .content{padding:22px 32px 40px;}
-  #taskList, .cal-daylist{
-    display:grid;
-    grid-template-columns:repeat(auto-fill, minmax(320px,1fr));
-    gap:12px;
-    align-content:start;
-  }
-  #taskList .task-card, .cal-daylist .task-card{margin-bottom:0;}
-  .fab{
-    right:calc(50% - 600px + 32px); left:auto; transform:none; bottom:26px;
-  }
-  .searchrow, .filterchips{max-width:640px;}
-  .report-summary, .stat-card, .settings-group, .weekhist-item{max-width:800px;}
 }
 button{font-family:inherit;}
 input,select,textarea{font-family:inherit;}
